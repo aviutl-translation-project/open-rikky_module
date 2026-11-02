@@ -1,0 +1,15 @@
+LIBRARY "rikky_memory.auf"
+EXPORTS
+    CloseAviHandle                  @1
+    FileArea                        @2
+    GetAviHandle                    @3
+    GetFilterTable                  @4
+    GetObjectName                   @6
+    GetObjectProcessIndex           @7
+    HSV2RGB                         @8
+    RGB2HSV                         @9
+    RikkyExitRegister               @10
+    RikkyGetMemoryData              @11
+    RikkyLoadRegister               @12
+    RikkySaveRegister               @13
+    _Z19RikkyBackupRegisterP6FILTER=RikkyBackupRegister_impl @14
