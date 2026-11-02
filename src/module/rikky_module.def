@@ -1,0 +1,4 @@
+LIBRARY rikky_module.dll
+EXPORTS
+    luaopen_rikky_module @1
+
